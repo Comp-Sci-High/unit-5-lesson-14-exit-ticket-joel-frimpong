@@ -1,6 +1,6 @@
 // Create a function that tests the post route handler [2 pts]
 async function test(post){
-    const response = await fetch(base+"/create-potion")
+    const response = await fetch("/create-potion")
     const data = await response.json()
     console.log(data)
 }
